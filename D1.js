@@ -11,7 +11,7 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 console.log(
-  "I principali datatype in JavaScript sono 5: 1)NUMERO: in esso possaimo inserire un qualsiasi numero 2)STRINGA: in essa possiamo scrivere una frase/caratteri tra due apici 3)BOOLEAN: esso restituisce un valore che può essere Vero/Falso  4)NULL: viene utilizzato per fare riferimento all'assenza di un valore nell'oggetto, può essere anche restituito da una fuzione/variabile 5) UNDEFINED : viene utilizzato per fare riferimento ad una variabile dichiarata senza che essa sia stata inizializzata (ovvero non ha alcun valore assegnato"
+  "I principali datatype in JavaScript sono 5: 1)NUMERO: in esso possaimo inserire un qualsiasi numero \n 2)STRINGA: in essa possiamo scrivere una frase/caratteri tra due apici \n 3)BOOLEAN: esso restituisce un valore che può essere Vero/Falso \n 4)NULL: viene utilizzato per fare riferimento all'assenza di un valore nell'oggetto, può essere anche restituito da una fuzione/variabile \n 5) UNDEFINED : viene utilizzato per fare riferimento ad una variabile dichiarata senza che essa sia stata inizializzata (ovvero non ha alcun valore assegnato"
 );
 
 /* ESERCIZIO 2
@@ -53,7 +53,7 @@ console.log(
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
-let numero5 = x - 4;
+let numero5 = 4 - x;
 console.log("Esegui una sottrazione tra i numeri x-4=", numero5);
 
 /* ESERCIZIO 7
@@ -65,3 +65,5 @@ console.log("Esegui una sottrazione tra i numeri x-4=", numero5);
 let name1 = "john";
 let name2 = "John";
 console.log("john e diverso da John:", name1 !== name2);
+
+console.log(name1.toLowerCase() === name2.toLowerCase());
